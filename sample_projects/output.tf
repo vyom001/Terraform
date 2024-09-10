@@ -1,4 +1,3 @@
-output "public_IP_address"
-{
-value= "module.Demo_ec2_module.IP_address
+output "public_IP_address" {
+    value= module.ec2_instance_module.public-ip-address
 }
