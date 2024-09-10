@@ -1,4 +1,4 @@
-resource "aws_instance" "demoinstances" {
+resource "aws_instance" "example" {
     ami = var.ami_name
     instance_type = var.instance_type
     count = 5 #5 ec2 instances will be launched
